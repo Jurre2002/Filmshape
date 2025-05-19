@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 nav {
@@ -235,3 +236,126 @@ h4 {
     padding: 14px 24px 13px 24px;
     text-decoration: none;
 }
+
+/* video carrousel */
+
+.videoCarrousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carrousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 2rem;
+  }
+  
+  .carrousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 800px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 3rem;
+    border-radius: 50%;
+    color: white;
+  }
+  
+  .arrow.left {
+    left: 10px;
+  }
+  
+  .arrow.right {
+    right: 10px;
+  }
+
+  .imageCarrousel {
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 2rem;
+  }
+  
+  .imageCarrouselItem {
+    flex: 0 0 350px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+  
+  .imageCarrouselItem img {
+    width: 350px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .imageCarrousel {
+    display: flex;
+    width: max-content;
+    animation: scroll 25s linear infinite;
+  }
+
+  .imageCarrousel1 {
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 2rem;
+  }
+  
+  .imageCarrouselItem1 {
+    flex: 0 0 350px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+  
+  .imageCarrouselItem1 img {
+    width: 350px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .imageCarrousel1 {
+    display: flex;
+    width: max-content;
+    animation: scroll 15s linear infinite;
+  }
