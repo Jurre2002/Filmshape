@@ -58,3 +58,57 @@ track.addEventListener('transitionend', () => {
   }
   transitioning = false;
 });
+
+const reviews = document.querySelectorAll('.review');
+const leftArrow = document.querySelector('.arrow1.left');
+const rightArrow = document.querySelector('.arrow1.right');
+const dots = document.querySelectorAll('.dot');
+
+let currentIndex1 = 0;
+let lastIndex = 0;
+
+function showReview(index) {
+  reviews.forEach((review, i) => {
+    // Verwijder alle actieve en animatieklassen
+    review.classList.remove('active', 'slide-in-left', 'slide-in-right');
+  });
+
+  dots.forEach((dot, i) => {
+    dot.classList.toggle('active-dot', i === index);
+  });
+
+  // Bepaal animatierichting
+  const direction = index > lastIndex ? 'slide-in-right' : 'slide-in-left';
+
+  // Voeg active en animatieklasse toe
+  reviews[index].classList.add('active', direction);
+
+  lastIndex = index;
+}
+
+// Eventlisteners pijlen
+leftArrow.addEventListener('click', () => {
+  currentIndex1 = (currentIndex1 - 1 + reviews.length) % reviews.length;
+  showReview(currentIndex1);
+});
+
+rightArrow.addEventListener('click', () => {
+  currentIndex1 = (currentIndex1 + 1) % reviews.length;
+  showReview(currentIndex1);
+});
+
+// Eventlistener bolletjes
+dots.forEach((dot, i) => {
+  dot.addEventListener('click', () => {
+    // Alleen animatie bepalen op basis van vorige index
+    showReview(i);
+    currentIndex1 = i;
+  });
+});
+
+showReview(currentIndex1);
+
+
+
+
+
