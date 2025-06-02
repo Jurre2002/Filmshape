@@ -7,13 +7,15 @@
     <title>Filmshape</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <link rel="icon" href="media/logo.svg" type="image/svg+xml">
 </head>
 
 <body>
-        <nav>
+    <nav>
+        <div class="navbar">
             <ul class="navLinks">
-                <li><a href="#">Logo</a></li>
+                <li><a class="logo" href="#"><img src="media/logo.svg" width="24px" height="24px"
+                            alt="Logo">Filmshape</a></li>
                 <li><a href="#">Hoe Werkt Het</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Over Ons</a></li>
@@ -21,7 +23,8 @@
             <ul class="startProject">
                 <button>Start Project</button>
             </ul>
-        </nav>
+        </div>
+    </nav>
 
     <section class="hero">
         <h1 class="heroTitle">Niet Zomaar MEDIA,</h1>
@@ -164,60 +167,91 @@
 </section>
 
 <section class="reviews">
-  <div class="carousel">
-    <button class="arrow1 left">&#10094;</button>
+    <div class="carousel">
+        <button class="arrow1 left">&#10094;</button>
 
-    <div class="review-container">
-      <div class="review">
-        <p>"Fantastische ervaring, ik kom zeker terug!"</p>
-        <span>Lisa</span>
-      </div>
-      <div class="review">
-        <p>"Geweldige service en supervriendelijk personeel!"</p>
-        <span>Mark</span>
-      </div>
-      <div class="review">
-        <p>"Een absolute aanrader voor iedereen."</p>
-        <span>Sophie</span>
-      </div>
+        <div class="review-container">
+            <div class="review">
+                <p>“Stefan en Mark maakten video’s, foto’s en dronebeelden tijdens onze evenementen Oldtimerdag de
+                    Westereen en brommerrit De Gehaktbalrit, met als resultaat een geweldige aftermovie en prachtige
+                    foto’s. Deelnemers kregen de mogelijkheid om de gemaakte foto’s te bestellen via hun website. Het
+                    contact met Mark en Stefan is prettig en ze namen onze wensen mee in hun creaties. We zijn erg
+                    tevreden met Filmshape Producties en hebben ze zelfs meegevraagd voor de volgende evenementen!”
+                </p>
+                <span>Oldtimerdag de Westereen</span>
+                <div>Evenementenorganisatie</div>
+            </div>
+            <div class="review">
+                <p>“Voor mijn nieuwe webshop heb ik hier productfoto’s laten maken en ben enorm tevreden! Persoonlijk
+                    contact, goed overleg over de wensen en foto’s van hoge kwaliteit passend bij mijn verwachtingen, is
+                    waarom ik dit bedrijf echt aanraadt!”
+                </p>
+                <span>Lesley Kraak</span>
+                <div>Ecommerce Reseller</div>
+            </div>
+            <div class="review">
+                <p>“De kwaliteit van de foto’s en video’s van Filmshape Producties is hoog. Ze streven naar hoge
+                    kwaliteit en mocht je net niet helemaal tevreden zijn helpen ze je graag tot je tevreden bent.”
+                </p>
+                <span>Remco ter Veld</span>
+                <div>FitVeld Personal Coaching</div>
+            </div>
+            <div class="review">
+                <p>“Deze heren hebben onze Charles Dickens Kerstmarkt in Buitenpost erg mooi uitgelicht door prachtige
+                    foto’s en video’s te maken. De aftermovie die we kregen was toch wel echt de kers op de taart van
+                    dit mooie evenement! Bedankt heren.”
+                </p>
+                <span>Kerstmarkt Buitenpost</span>
+                <div>Evenementenorganisatie</div>
+            </div>
+            <div class="review">
+                <p>“In 2024 heeft Filmshape Producties een geweldige video gemaakt voor www.stichtingfly4u.nl. Mark en
+                    zijn bevlogen team, bedankt!”</p>
+                <span>Fly4U - Evenementenorganisatie</span>
+                <div>Evenementenorganisatie</div>
+            </div>
+        </div>
+
+        <button class="arrow1 right">&#10095;</button>
+
+        <div class="dots">
+            <span class="dot active-dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
     </div>
-
-    <button class="arrow1 right">&#10095;</button>
-
-    <div class="dots">
-      <span class="dot active-dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-  </div>
 </section>
 
-<section class="webshop">
-    <h1 class="webshopTitle">Check out our resources to get started with video marketing.</h1>
-    <a href="#" class="webshopButton">Go to webshop <span>&#10095;</span></a>
-    <div class="webshopImage">
-        <div class="webshopElement">
-            <img src="media/testImage.webp" alt="testImage">
-            <div class="webshopText">
-                <p class="webshopSubitem">Item</p>
-                <p class="webshopDescription">Multiple professional sets and versatile spaces ready for your next
-                    production.</p>
+<section class="webshopContainer">
+    <div class="webshop">
+        <h1 class="webshopTitle">Check out our resources to get started with video marketing.</h1>
+        <a href="#" class="webshopButton">Go to webshop<span>&#10095;</span></a>
+        <div class="webshopImage">
+            <div class="webshopElement">
+                <img src="media/testImage.webp" alt="testImage">
+                <div class="webshopText">
+                    <p class="webshopSubitem">Item</p>
+                    <p class="webshopDescription">Multiple professional sets and versatile spaces ready for your next
+                        production.</p>
+                </div>
             </div>
-        </div>
-         <div class="webshopElement">
-            <img src="media/testImage.webp" alt="testImage">
-            <div class="webshopText">
-                <p class="webshopSubitem">Item</p>
-                <p class="webshopDescription">Multiple professional sets and versatile spaces ready for your next
-                    production.</p>
+            <div class="webshopElement">
+                <img src="media/testImage.webp" alt="testImage">
+                <div class="webshopText">
+                    <p class="webshopSubitem">Item</p>
+                    <p class="webshopDescription">Multiple professional sets and versatile spaces ready for your next
+                        production.</p>
+                </div>
             </div>
-        </div>
-         <div class="webshopElement">
-            <img src="media/testImage.webp" alt="testImage">
-            <div class="webshopText">
-                <p class="webshopSubitem">Item</p>
-                <p class="webshopDescription">Multiple professional sets and versatile spaces ready for your next
-                    production.</p>
+            <div class="webshopElement">
+                <img src="media/testImage.webp" alt="testImage">
+                <div class="webshopText">
+                    <p class="webshopSubitem">Item</p>
+                    <p class="webshopDescription">Multiple professional sets and versatile spaces ready for your next
+                        production.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -234,43 +268,43 @@
 
 <footer>
     <div class="footerContainer">
-        <i class="fas fa-home"></i> 
-            <div class="footerSection1">
-                <ul>
-                    <li class="title">Home</li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <ul>
-                    <li class="title">Home</li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <ul>
-                    <li class="title">Home</li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footerSection2">
-                <ul>
-                    <li class="copyright">Copyright: Filmshape Producties 2024</li>
-                    <li><a href="#">Locatie van het bedrijf</a></li>
-                </ul>
-            </div>
-            <hr class="horizontalLine">
-            <div class="footerSection3">
-                <ul>
-                    <li class="copyright">Privacy Voorwaarden en Algemene Voorwaarden. Bij klik downloaden</li>
-                    <li><a href="#">Logo</a></li>
-                </ul>
-            </div>
+        <i class="fas fa-home"></i>
+        <div class="footerSection1">
+            <ul>
+                <li class="title">Home</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="title">Home</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="title">Home</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footerSection2">
+            <ul>
+                <li class="copyright">Copyright: Filmshape Producties 2024</li>
+                <li><a href="#">Locatie van het bedrijf</a></li>
+            </ul>
+        </div>
+        <hr class="horizontalLine">
+        <div class="footerSection3">
+            <ul>
+                <li class="copyright">Privacy Voorwaarden en Algemene Voorwaarden. Bij klik downloaden</li>
+                <li><a href="#">Logo</a></li>
+            </ul>
+        </div>
     </div>
 </footer>
 
