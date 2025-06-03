@@ -268,11 +268,58 @@ h4 {
 
 /* video carrousel */
 
+.ctaCarrousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.carrouselButton {
+  background-color: #1D1D1F;
+  border: 1px solid #fff;
+  padding: 14px 20px;
+  border-radius: 24px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: .32px;
+  transition: all .3s ease-in-out;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.carrouselButton:hover {
+  background-color: #1b1b1b;
+  color: rgb(185, 185, 185);
+}
+
+.carrouselButton div {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
 .videoCarrousel {
   background-color: #161617;
   width: 100%;
   overflow: hidden;
   position: relative;
+}
+
+.videoCarrousel h2 {
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  color: #F5F5F7;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -0.96px;
 }
 
 .carrousel-container {
@@ -770,11 +817,12 @@ footer {
   background-color: #F2F2F2;
   padding-top: 4rem;
   padding-bottom: 2rem;
+
 }
 
 .footerContainer {
-  margin-left: 20rem;
-  margin-right: 20rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .footerContainer i {
@@ -786,10 +834,18 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 10rem;
+  font-weight: 600;
 }
 
 .footerSection1 li a {
   color: rgb(118, 118, 118);
+  font-weight: 400;
+}
+
+.footerSection1 li a:hover {
+  text-decoration: underline;
+  color: #1D1D1F;
+  transition: 0, 3s;
 }
 
 .title {
@@ -816,6 +872,12 @@ footer {
   color: rgb(118, 118, 118);
 }
 
+.footerSection2 li a:hover {
+  text-decoration: underline;
+  color: #1D1D1F;
+  transition: 0.3s;
+}
+
 .horizontalLine {
   border: none;
   height: 1px;
@@ -828,7 +890,6 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .footerSection3 li {
@@ -837,4 +898,22 @@ footer {
 
 .footerSection3 li a {
   color: rgb(118, 118, 118);
+  font-weight: 400;
+}
+
+.footerSection3 li a:hover {
+  text-decoration: underline;
+  color: #1D1D1F;
+  transition: 0.3s;
+}
+
+.logoFooter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.algemeneVoorwaarden {
+  font-weight: 400;
 }
