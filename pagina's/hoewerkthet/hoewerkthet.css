@@ -79,4 +79,79 @@ li a:hover {
   transition: 0.3s;
 }
 
-/* hoe werkt het */
+/* hero */
+
+.hero {
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
+    url('/media/hoewerkthet(hero).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10rem;
+  color: white;
+  
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  width: 50rem;
+}
+
+.hero p {
+  color: #DADADA;
+  margin-top: 1.5rem;
+  font-weight: normal;
+  font-size: 1.2rem;
+  max-width: 50rem
+}
+
+.maakAfspraak {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 14px 24px 13px 24px;
+  background-color: #F9C938;
+  border-radius: 24px;
+  border: none;
+  color: #1D1D1F;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 3rem;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  color: #DADADA;
+  text-decoration: none;
+  margin-right: 1rem;
+  gap: 1rem;
+}
+
+.links a i {
+  border-radius: 5rem;
+  border: 2px solid #DADADA;
+  padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
