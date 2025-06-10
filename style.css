@@ -273,7 +273,7 @@ h4 {
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 7rem;
 }
 
 .carrouselButton {
@@ -398,16 +398,12 @@ h4 {
   }
 }
 
-.imageCarrousel {
-  display: flex;
-  width: max-content;
-  animation: scroll 25s linear infinite;
-}
 
 .imageCarrousel1 {
   display: flex;
   overflow: hidden;
   padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .imageCarrouselItem1 {
@@ -423,20 +419,86 @@ h4 {
   border-radius: 1rem;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
 .imageCarrousel1 {
   display: flex;
   width: max-content;
-  animation: scroll 15s linear infinite;
+  will-change: transform;
+  transform: translateX(0);
+}
+
+.imageCarrouselItem1 {
+  position: relative;
+  flex: 0 0 350px;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1rem;
+}
+
+.overlayText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* donkere achtergrond */
+  padding: 0.75rem 1.25rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.imageWrapper:hover .overlayText {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.imageCarrouselItem1 img {
+  width: 350px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.imageCarrouselItem1 img:hover {
+  filter: brightness(0.7);
+  transition: all 0.3s ease-in-out;
+}
+
+.imageCarrousel1 i {
+  color: white;
+}
+
+.imageWrapper:hover img {
+  filter: brightness(0.6);
+  transition: filter 0.3s ease-in-out;
+}
+
+.videoCarrousel h1 {
+  color: white;
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 52px;
 }
 
 /* grid section */
