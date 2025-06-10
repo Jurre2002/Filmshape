@@ -20,6 +20,25 @@ nav {
   backdrop-filter: blur(10px);
 }
 
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  border-radius: 2px;
+}
+
 .navbar {
   margin: 0 auto;
   display: flex;
@@ -979,3 +998,18 @@ footer {
 .algemeneVoorwaarden {
   font-weight: 400;
 }
+
+/* media queries */
+
+/* telefoon */
+@media screen and (max-width: 430px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 430px;
+  }
+  
+}
+
+
