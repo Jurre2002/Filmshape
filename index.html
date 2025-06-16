@@ -12,19 +12,30 @@
 
 <body>
     <nav>
-        <div class="navbar">
-            <ul class="navLinks">
-                <li><a class="logo" href="index.html"><img src="media/logo.svg" width="24px" height="24px"
-                            alt="Logo">Filmshape</a></li>
-                <li><a href="pagina's/hoewerkthet/hoewerkthet.html">Hoe Werkt Het</a></li>
-                <li><a href="pagina's/portfolio/portfolio.html">Portfolio</a></li>
-                <li><a href="pagina's/overons/overons.html">Over Ons</a></li>
-            </ul>
-            <ul class="startProject">
-                <button>Start Project</button>
-            </ul>
-        </div>
-    </nav>
+  <div class="navbar">
+    <!-- Logo linksboven -->
+    <a class="logo" href="index.html">
+      <img src="media/logo.svg" width="24px" height="24px" alt="Logo">Filmshape
+    </a>
+
+    <!-- Hamburger rechtsboven -->
+    <button class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Menu-items -->
+    <ul class="navLinks" id="navLinks">
+      <li><a href="pagina's/hoewerkthet/hoewerkthet.html">Hoe Werkt Het</a></li>
+      <li><a href="pagina's/portfolio/portfolio.html">Portfolio</a></li>
+      <li><a href="pagina's/overons/overons.html">Over Ons</a></li>
+      <li><button class="startProjectBtn">Start Project</button></li>
+    </ul>
+  </div>
+</nav>
+
+    
 
     
 
@@ -137,7 +148,6 @@
             <a class="carrouselButton" href="#">Bekijk Portfolio <div>&#10094;</div></a>
         </div>
     </section>
-</body>
 
 <section class="homepageGrid">
     <div class="gridPadding">
@@ -287,7 +297,6 @@
 
 <footer>
     <div class="footerContainer">
-        <i class="fas fa-home"></i>
         <div class="footerSection1">
             <ul>
                 <li class="title">Pagina's</li>
