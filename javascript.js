@@ -24,10 +24,10 @@
 
   items.forEach(item => {
     item.addEventListener('mouseenter', () => {
-      targetSpeed = 0.2; // trager bij hover
+      targetSpeed = 0.1; // trager bij hover
     });
     item.addEventListener('mouseleave', () => {
-      targetSpeed = 0.8; // terug naar normaal
+      targetSpeed = 0.7; // terug naar normaal
     });
   });
 
@@ -82,13 +82,10 @@
     });
   });
 
-    const hamburger = document.getElementById('hamburger');
+  const hamburger = document.getElementById('hamburger');
   const navLinks = document.getElementById('navLinks');
 
   hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active'); // voor kruisje
-    navLinks.classList.toggle('active');  // voor menu tonen
+    navLinks.classList.toggle('active'); // voor menu tonen
   });
-
-
-
