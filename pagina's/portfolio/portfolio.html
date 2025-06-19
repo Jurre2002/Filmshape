@@ -1,25 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmshape | Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
 </head>
+
 <body>
     <nav>
         <div class="navbar">
-            <ul class="navLinks">
-                <li><a class="logo" href="../../index.html"><img src="../../media/logo.svg" width="24px" height="24px"
-                            alt="Logo">Filmshape</a></li>
-                <li><a href="../hoewerkthet/hoewerkthet.html">Hoe Werkt Het</a></li>
-                <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+            <!-- Logo linksboven -->
+            <a class="logo" href="../../index.html">
+                <img src="../../media/logo.svg" width="24px" height="24px" alt="Logo">Filmshape
+            </a>
+
+            <!-- Hamburger rechtsboven -->
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Menu-items -->
+            <ul class="navLinks" id="navLinks">
+                <li><a href="..//hoewerkthet/hoewerkthet.html">Hoe Werkt Het</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="../overons/overons.html">Over Ons</a></li>
-            </ul>
-            <ul class="startProject">
-                <button>Start Project</button>
+                <li><button class="startProjectBtn">Start Project</button></li>
             </ul>
         </div>
     </nav>
+
+    <section class="portfolioSection homepageGrid">
+        <h1>Honderden blije klannten.</h1>
+        <div class="gridPadding">
+            <div class="gridElement">
+                <div class="gridText">
+                    <h2 class="gridTitle">Filmshape Producties<br>
+                        <strong>Honderden blije klanten.</strong>
+                    </h2>
+                </div>
+            </div>
+            <div class="gridContainer">
+                <div class="gridItem1 portfolioDescription">
+                    <h3>Populaire video's</h3>
+                    <div>Een greep uit ons portfolio: Projecten waar we trots op zijn.</div>
+                </div>
+                <a href="https://www.youtube.com/watch?v=Vq1nxwda4rk" class="gridItem gridItem2">
+                    <h3>Kollumer Bierproef Festival 2024 - Aftermovie</h3>
+                </a>
+                <a href="https://www.youtube.com/watch?v=4jSlA25lH-g" class="gridItem gridItem3">
+                    <h3>Kerstmarkt Buitenpost 2024 - Aftermovie</h3>
+                </a>
+                <a href="https://www.youtube.com/watch?v=9tAJI9crrDs" class="gridItem gridItem4">
+                    <h3>BD2025 - Aftermovie</h3>
+                </a>
+                <a href="https://www.youtube.com/watch?v=yhYVAHb9c5s" class="gridItem gridItem5">
+                    <h3>OD2025 - Aftermovie</h3>
+                </a>
+                <a href="https://www.youtube.com/watch?v=hyUfPaKI44M" class="gridItem gridItem6">
+                    <h3>Brommertocht 2024 - Aftermovie</h3>
+                </a>
+                <a href="https://www.youtube.com/watch?v=ptkc1nDu_Z0" class="gridItem gridItem7">
+                    <h3>Oldtimerdag de Westereen 2024 - Aftermovie </h3>
+                </a>
+                <a href="https://www.youtube.com/watch?v=BY4P0e0uqYg" class="gridItem gridItem8">
+                    <h3>Fly4U Jonge Zorgdragers 2024 - Aftermovie</h3>
+                </a>
+            </div>
+    </section>
+
+    <section class="getStarted">
+        <div class="getStartedContainer">
+            <h2>Start met ons</h2>
+            <h1>Breng jouw verhaal in beeld en groei door.</h1>
+            <p>Meerdere gingen jou voor. Ben jij de volgende?</p>
+            <a href="#" class="getStartedButton">Maak afspraak</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footerContainer">
+            <i class="fas fa-home"></i>
+            <div class="footerSection1">
+                <ul>
+                    <li class="title">Pagina's</li>
+                    <li><a href="#">Hoe Werkt Het</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Over Ons</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul>
+                    <li class="title">Socials</li>
+                    <li><a href="https://www.instagram.com/filmshape_producties/">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/people/Filmshape-Producties/61564591919270/">Facebook</a></li>
+                    <li><a
+                            href="https://www.linkedin.com/company/filmshape-producties/?originalSubdomain=nl">LinkedIn</a>
+                    </li>
+                    <li><a
+                            href="https://www.google.com/search?sca_esv=b42e03ff43b61ad3&tbm=lcl&q=Filmshape+Producties+-+Mediabedrijf+uit+Friesland+Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxK2MLA0MTc3NjQ3N7IwNDIwNDMw38DI-IrR0i0zJ7c4I7EgVSGgKD-lNLkkM7VYQVfBNzUlMzEpNaUoMytNoTSzRMGtCCiRk5iXohCUWpaZWl68iJV8vQAuEBgokgAAAA&rldimm=8094773177281201607&hl=nl-NL&sa=X&ved=2ahUKEwjY6uCxkdaNAxXZ-QIHHfRGLC4Q9fQKegQIThAF&biw=1920&bih=911&dpr=1#lkt=LocalPoiReviews">Google</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="title">Diensten</li>
+                    <li><a href="#">Videografie</a></li>
+                    <li><a href="#">Fotografie</a></li>
+                </ul>
+            </div>
+            <div class="footerSection2">
+                <ul>
+                    <li class="copyright">Copyright © Filmshape Producties 2024</li>
+                    <li><a class="algemeneVoorwaarden"
+                            href="https://www.google.com/maps/place/Filmshape+Producties+-+Mediabedrijf+uit+Friesland/@53.2438829,6.1524349,17z/data=!3m1!4b1!4m6!3m5!1s0xaae305af7d0b9da7:0x705669511934c5c7!8m2!3d53.2438829!4d6.1524349!16s%2Fg%2F11svcf_cg2?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D">Lege
+                            Seis 8, 9285 JD Buitenpost</a></li>
+                </ul>
+            </div>
+            <hr class="horizontalLine">
+            <div class="footerSection3">
+                <ul>
+                    <li class="copyright"><a href="#">Privacy Voorwaarden</a> en <a href="#">Algemene Voorwaarden</a>
+                    </li>
+                    <li>
+                        <div class="logoFooter" href="#"><img src="../../media/logo.svg" width="20px"
+                                height="20px"></img>Filmshape</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

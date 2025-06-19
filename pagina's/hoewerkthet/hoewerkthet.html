@@ -10,15 +10,24 @@
 <body>
     <nav>
         <div class="navbar">
-            <ul class="navLinks">
-                <li><a class="logo" href="../../index.html"><img src="../../media/logo.svg" width="24px" height="24px"
-                            alt="Logo">Filmshape</a></li>
-                <li><a href="../hoewerkthet/hoewerkthet.html">Hoe Werkt Het</a></li>
+            <!-- Logo linksboven -->
+            <a class="logo" href="../../index.html">
+                <img src="../../media/logo.svg" width="24px" height="24px" alt="Logo">Filmshape
+            </a>
+
+            <!-- Hamburger rechtsboven -->
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Menu-items -->
+            <ul class="navLinks" id="navLinks">
+                <li><a href="hoewerkthet.html">Hoe Werkt Het</a></li>
                 <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
                 <li><a href="../overons/overons.html">Over Ons</a></li>
-            </ul>
-            <ul class="startProject">
-                <button>Start Project</button>
+                <li><button class="startProjectBtn">Start Project</button></li>
             </ul>
         </div>
     </nav>
@@ -39,24 +48,24 @@
         <h1>Het gemakkelijke productie proces.</h1>
         <div class="hoewerkthetContainer">
             <div class="hoewerkthetElement">
-                <i class="fa-solid fa-video"></i>
-                <h2>1 Eerste gesprek en voorbereiding</h2>
-                <p>Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim. </p>
+                <i class="fa-solid fa-user"></i>
+                <h2>1. Kennismaking & Offerte</h2>
+                <p>We starten met een vrijblijvend gesprek waarin we je wensen bespreken. Vaak komen we ook even langs op locatie. Op basis daarvan sturen we een offerte op maat.</p>
+            </div>
+            <div class="hoewerkthetElement">
+                <i class="fa-solid fa-film"></i>
+                <h2>2. Voorbereiding</h2>
+                <p>Na akkoord maken we een concreet plan: van script tot planning. We stemmen alles goed met je af, zodat iedereen weet wat er gaat gebeuren.</p>
             </div>
             <div class="hoewerkthetElement">
                 <i class="fa-solid fa-video"></i>
-                <h2>2 Het maken van een plan</h2>
-                <p>Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim. </p>
+                <h2>3. Opnames & Montage</h2>
+                <p>We filmen en fotograferen op locatie met professionele apparatuur. Daarna selecteren en monteren we het materiaal tot een strakke video, helemaal volgens het gekozen pakket.</p>
             </div>
             <div class="hoewerkthetElement">
-                <i class="fa-solid fa-video"></i>
-                <h2>3 Sorteren van beelden</h2>
-                <p>Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim. </p>
-            </div>
-            <div class="hoewerkthetElement">
-                <i class="fa-solid fa-video"></i>
-                <h2>4 Eind evaluatie</h2>
-                <p>Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim. </p>
+                <i class="fa-solid fa-paper-plane"></i>
+                <h2>4. Oplevering & Evaluatie</h2>
+                <p>Je ontvangt de video en factuur. Tot slot plannen we een korte evaluatie: hoe is het gegaan, wat kon beter, en werken we in de toekomst weer samen?</p>
             </div>
         </div>
     </section>
@@ -110,7 +119,7 @@
             <ul>
                 <li class="copyright"><a href="#">Privacy Voorwaarden</a> en <a href="#">Algemene Voorwaarden</a></li>
                 <li>
-                    <div class="logoFooter" href="#"><img src="media/logo.svg" width="20px"
+                    <div class="logoFooter" href="#"><img src="../../media/logo.svg" width="20px"
                             height="20px"></img>Filmshape</div>
                 </li>
             </ul>

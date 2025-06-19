@@ -20,6 +20,25 @@ nav {
   backdrop-filter: blur(10px);
 }
 
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  border-radius: 2px;
+}
+
 .navbar {
   margin: 0 auto;
   display: flex;
@@ -64,7 +83,20 @@ li a {
   padding: 14px 0;
 }
 
+.startProjectBtn {
+  padding: 0.3rem 0.8rem;
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 0.95rem;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
 .logo {
+  color: white;
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -194,6 +194,7 @@ li a:hover {
 .hoewerkthetElement h2 {
   font-weight: normal;
   font-size: 1rem;
+  font-weight: 600;
 }
 
 .hoewerkthetElement p {
@@ -201,6 +202,7 @@ li a:hover {
   font-size: 1rem;
   color: #a8a8a8;
   width: 15rem;
+  line-height: 1.5;
 }
 
 /* Get started section */
