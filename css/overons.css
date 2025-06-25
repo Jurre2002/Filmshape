@@ -111,39 +111,25 @@ li a:hover {
   transition: 0.3s;
 }
 
-/* portfolio section */
+/* intro */
 
-.portfolioSection {
-  background-color: #F2F2F2;
-}
-
-/* .gridContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-auto-flow: row;
-  gap: 16px;
-}
-
-.gridItem {
+.intro {
   display: flex;
-  flex-direction: column;
-  min-height: 388px;
-  align-items: flex-start;
-  gap: 16px;
-  padding: 32px;
-}
-
-.griditem1 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(media/hoge-kwaliteit.jpg);
-  background-size: cover;
-} */
-
-.homepageGrid {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  padding-top: 7rem;
+  margin: auto;
+  max-width: 80rem;
+  justify-content: space-between;
   align-items: center;
+}
+
+.introTitle {
+  font-size: 3rem;
+}
+
+.introQuote {
+  font-size: 1.3rem;
+  max-width: 25rem;
 }
 
 .gridElement {
@@ -163,157 +149,50 @@ li a:hover {
   letter-spacing: -0.88px;
 }
 
-.gridDescription {
-  color: #1D1D1F;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
-  margin: 0;
+/* video */
+
+video {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
 }
 
-.gridButton {
+/* over ons */
+
+.overons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.overonsClass {
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-.gridPadding {
-  max-width: 1440px;
-  display: flex;
-  flex-direction: column;
-  gap: 56px;
-  padding-top: 104px;
-  padding-bottom: 128px;
-  padding-left: 120px;
-  padding-right: 120px;
-}
-
-.gridContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-auto-flow: row;
-  gap: 16px;
-}
-
-.gridItem {
-  display: flex;
-  flex-direction: column;
-  min-width: 350px;
-  min-height: 225px;
-  align-items: flex-start;
-  gap: 16px;
-  padding: 32px;
-  overflow: hidden;
-  display: block;
-  color: inherit;
-  text-decoration: none;
-}
-
-.gridItem:hover {
-  transform: scale(1.01);
-  transition: transform 0.3s ease;
-}
-
-.portfolioDescription {
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin: auto;
+  max-width: 70rem;
   justify-content: center;
-  gap: 12px;
+  align-items: center;
+  gap: 4rem;
+  padding: 1rem;
 }
 
-.portfolioDescription div {
-  color: #1D1D1F;
-  padding: 0 32px;
-  text-align: center;
+.overons p {
+  font-size: 1.3rem;
+  max-width: 35rem;
+  margin: auto;
 }
 
-.portfolioDescription h3 {
-  text-align: center;
+.overons img {
+  margin: auto;
+  max-width: 35rem;
+  height: auto;
 }
-
-.gridItem2 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(../../media/tumbnail-2.jpg);
-  background-size: cover;
-  grid-row: 1 / 3;
-  grid-column: 2 / 4;
-}
-
-.gridItem3 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../../media/tumbnail-1.jpg);
-  background-size: cover;
-}
-
-.gridItem4 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../../media/tumbnail-3.jpg);
-  background-size: cover;
-}
-
-.gridItem5 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../../media/tumbnail-4.jpg);
-  background-size: cover;
-}
-
-.gridItem6 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../../media/tumbnail-5.jpg);
-  background-size: cover;
-}
-
-.gridItem7 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../../media/tumbnail-6.jpg);
-  background-size: cover;
-}
-
-.gridItem8 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../../media/tumbnail-7.jpg);
-  background-size: cover;
-}
-
-.gridItem h3 {
-  color: #FFFFFF;
-  font-family: "proxima-nova", Sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 32px;
-  letter-spacing: -0.52px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Get started section */
 
 .getStarted {
-  padding-top: 8rem;
+  padding-top: 4rem;
   padding-bottom: 8rem;
 }
 
