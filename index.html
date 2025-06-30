@@ -7,7 +7,10 @@
     <title>Filmshape</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="icon" href="media/logo.svg" type="image/svg+xml">
+    <link rel="icon" href="media/logo.svg" type="image/svg+xml">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </head>
 
 <body>
@@ -164,62 +167,59 @@
     </section>
 
     <section class="videoCarrousel">
-        <h1>Bekijk onze video's.</h1>
-        <div class="imageCarrousel1">
-            <div class="imageCarrouselItem1">
-                <div class="imageWrapper">
-                    <img src="media/tumbnail-1.jpg" alt="1">
-                    <a href="https://www.youtube.com/watch?v=4jSlA25lH-g" class="overlayText">Bekijk video <i
-                            class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="imageCarrouselItem1">
-                <div class="imageWrapper">
-                    <img src="media/tumbnail-2.jpg" alt="1">
-                    <a href="https://www.youtube.com/watch?v=Vq1nxwda4rk" class="overlayText">Bekijk video <i
-                            class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="imageCarrouselItem1">
-                <div class="imageWrapper">
-                    <img src="media/tumbnail-3.jpg" alt="2">
-                    <a href="https://www.youtube.com/watch?v=9tAJI9crrDs" class="overlayText">Bekijk video <i
-                            class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="imageCarrouselItem1">
-                <div class="imageWrapper">
-                    <img src="media/tumbnail-4.jpg" alt="3">
-                    <a href="https://www.youtube.com/watch?v=yhYVAHb9c5s" class="overlayText">Bekijk video <i
-                            class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="imageCarrouselItem1">
-                <div class="imageWrapper">
-                    <img src="media/tumbnail-5.jpg" alt="4">
-                    <a href="https://www.youtube.com/watch?v=hyUfPaKI44M" class="overlayText">Bekijk video <i
-                            class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="imageCarrouselItem1">
-                <div class="imageWrapper">
-                    <img src="media/tumbnail-6.jpg" alt="5">
-                    <a href="https://www.youtube.com/watch?v=ptkc1nDu_Z0" class="overlayText">Bekijk video <i
-                            class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="imageCarrouselItem1">
-                <div class="imageWrapper">
-                    <img src="media/tumbnail-7.jpg" alt="6">
-                    <a href="https://www.youtube.com/watch?v=BY4P0e0uqYg" class="overlayText">Bekijk video <i
-                            class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
+  <h1>Bekijk onze video's.</h1>
+
+  <div class="swiper videoSwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="imageWrapper">
+          <img src="media/tumbnail-1.jpg" alt="1">
+          <a href="https://www.youtube.com/watch?v=4jSlA25lH-g" class="overlayText">Bekijk video <i class="fas fa-arrow-right"></i></a>
         </div>
-        <div class="ctaCarrousel">
-            <a class="carrouselButton" href="pagina's/portfolio.html">Bekijk Portfolio <div>&#10094;</div></a>
+      </div>
+      <div class="swiper-slide">
+        <div class="imageWrapper">
+          <img src="media/tumbnail-2.jpg" alt="2">
+          <a href="https://www.youtube.com/watch?v=Vq1nxwda4rk" class="overlayText">Bekijk video <i class="fas fa-arrow-right"></i></a>
         </div>
-    </section>
+      </div>
+      <div class="swiper-slide">
+        <div class="imageWrapper">
+          <img src="media/tumbnail-3.jpg" alt="3">
+          <a href="https://www.youtube.com/watch?v=9tAJI9crrDs" class="overlayText">Bekijk video <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="imageWrapper">
+          <img src="media/tumbnail-4.jpg" alt="4">
+          <a href="https://www.youtube.com/watch?v=yhYVAHb9c5s" class="overlayText">Bekijk video <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="imageWrapper">
+          <img src="media/tumbnail-5.jpg" alt="5">
+          <a href="https://www.youtube.com/watch?v=hyUfPaKI44M" class="overlayText">Bekijk video <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="imageWrapper">
+          <img src="media/tumbnail-6.jpg" alt="6">
+          <a href="https://www.youtube.com/watch?v=ptkc1nDu_Z0" class="overlayText">Bekijk video <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="imageWrapper">
+          <img src="media/tumbnail-7.jpg" alt="7">
+          <a href="https://www.youtube.com/watch?v=BY4P0e0uqYg" class="overlayText">Bekijk video <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ctaCarrousel">
+    <a class="carrouselButton" href="pagina's/portfolio.html">Bekijk Portfolio <div>&#10094;</div></a>
+  </div>
+</section>
 
     <section class="homepageGrid">
         <div class="gridPadding">
@@ -413,9 +413,9 @@
             </div>
         </div>
     </footer>
+</body>
 
 
-
-    <script src="javascript.js"></script>
+<script src="/js/javascript.js"></script>
 
 </html>
