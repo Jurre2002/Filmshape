@@ -462,7 +462,7 @@ footer {
 
   /* Animatie naar kruis */
   .hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(5.5px, 5.5px);
   }
 
   .hamburger.active span:nth-child(2) {
@@ -470,7 +470,7 @@ footer {
   }
 
   .hamburger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
+    transform: rotate(-45deg) translate(5.5px, -5.5px);
   }
 
   .navLinks {
@@ -532,7 +532,7 @@ footer {
 
   .gridContainer {
     display: grid;
-    grid-template-columns: 1fr; /* 1 kolom */
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     gap: 1.5rem;
     width: 100%;
@@ -543,10 +543,9 @@ footer {
     min-height: auto;
     padding: 20px;
     border-radius: 8px;
-    background-color: #222; /* licht contrast om leesbaarheid te verbeteren */
+    background-color: #222;
   }
 
-  /* Achtergrondafbeeldingen in gridItems die normaal een vaste grid-positie hadden, gewoon onder elkaar */
   .gridItem2,
   .gridItem3,
   .gridItem4,
@@ -563,7 +562,7 @@ footer {
   }
 
   .portfolioDescription div {
-    padding: 0 1rem;
+    padding: 0;
     text-align: left;
   }
 

@@ -769,19 +769,16 @@ h4 {
   display: flex;
   justify-content: center;
   padding: 120px 1rem 130px 1rem;
-  /* voorkom dat hij tegen rand zit */
   box-sizing: border-box;
 }
 
 .carousel {
   position: relative;
-
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
   box-sizing: border-box;
   padding: 0 1rem;
-  /* optioneel: wat marge binnen bij mobiel */
 }
 
 .review {
@@ -1183,7 +1180,7 @@ footer {
 
   /* Animatie naar kruis */
   .hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(5.5px, 5.5px);
   }
 
   .hamburger.active span:nth-child(2) {
@@ -1191,7 +1188,7 @@ footer {
   }
 
   .hamburger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
+    transform: rotate(-45deg) translate(5.5px, -5.5px);
   }
 
   .navLinks {

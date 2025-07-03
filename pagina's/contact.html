@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmshape | Over Ons</title>
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <!-- Logo linksboven -->
+            <a class="logo" href="../index.html">
+                <img src="../media/logo.svg" width="24px" height="24px" alt="Logo">Filmshape
+            </a>
+
+            <!-- Hamburger rechtsboven -->
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Menu-items -->
+            <ul class="navLinks" id="navLinks">
+                <li><a href="hoewerkthet.html">Hoe Werkt Het</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="overons.html">Over Ons</a></li>
+                <li><button class="startProjectBtn contactCTA">Start Project</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="formContainer">
+        <div>
+            Wil je samen een video maken of heb je een creatief idee waar we samen aan kunnen werken? Laat hieronder je
+            gegevens achter en we zullen zo snel mogelijk contact met je opnemen om een
+            afspraak in te plannen.
+        </div>
+        <form action="https://formspree.io/f/mkgbekaz" method="POST">
+            <label for="voornaam">Voornaam*</label>
+            <input type="text" id="voornaam" name="voornaam" required>
+
+            <label for="achternaam">Achternaam*</label>
+            <input type="text" id="achternaam" name="achternaam" required>
+
+            <label for="bedrijfsnaam">Bedrijfsnaam*</label>
+            <input type="text" id="bedrijfsnaam" name="bedrijfsnaam" required>
+
+            <label for="telefoon">Telefoonnummer</label>
+            <input type="tel" id="telefoon" name="telefoon">
+
+            <label for="emailadres">E-mailadres*</label>
+            <input type="text" id="emailadres" name="emailadres" required>
+
+            <label for="pakketkeuze">Pakketkeuze</label>
+            <select id="pakketkeuze" name="pakketkeuze">
+                <option value="pakket0">Maak een keuze</option>
+                <option value="pakket1">Business Starter Pakket</option>
+                <option value="pakket2">Business Growth Pakket</option>
+                <option value="pakket3">Premium Presence Pakket</option>
+                <option value="pakket4">Basis Pakket</option>
+                <option value="pakket5">Sky High Pakket</option>
+                <option value="pakket6">Volledige Voorbereiding Pakket</option>
+            </select>
+
+            <label for="omschrijving">Omschrijf je project of stel je vraag</label>
+            <textarea id="omschrijving" name="omschrijving" rows="4"></textarea>
+
+            <button class="submit" type="submit">Verstuur</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="footerSection1">
+                <ul>
+                    <li class="title">Pagina's</li>
+                    <li><a href="hoewerkthet.html">Hoe Werkt Het</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="overons.html">Over Ons</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul>
+                    <li class="title">Socials</li>
+                    <li><a href="https://www.instagram.com/filmshape_producties/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/people/Filmshape-Producties/61564591919270/"
+                            target="_blank">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/company/filmshape-producties/?originalSubdomain=nl"
+                            target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="title">Voorwaarden</li>
+                    <li><a href="voorwaarden.html">Algemene Voorwaarden</a>
+                </ul>
+            </div>
+            <div class="footerSection2">
+                <ul>
+                    <li class="copyright">Copyright © Filmshape Producties 2024</li>
+                    <li><a class="algemeneVoorwaarden" target="_blank"
+                            href="https://www.google.com/maps/place/Filmshape+Producties+-+Mediabedrijf+uit+Friesland/@53.2438829,6.1524349,17z/data=!3m1!4b1!4m6!3m5!1s0xaae305af7d0b9da7:0x705669511934c5c7!8m2!3d53.2438829!4d6.1524349!16s%2Fg%2F11svcf_cg2?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D">Lege
+                            Seis 8, 9285 JD Buitenpost</a></li>
+                </ul>
+            </div>
+            <hr class="horizontalLine">
+            <div class="footerSection3">
+                <ul>
+                    <li> KVK 92939325 | BTW-ID NL866223769B01
+                    </li>
+                    <li>
+                        <div class="logoFooter" href="#"><img src="../media/logo.svg" width="20px"
+                                height="20px"></img>Filmshape</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="../js/contact.js"></script>
+
+</html>

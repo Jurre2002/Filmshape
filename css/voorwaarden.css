@@ -111,187 +111,12 @@ li a:hover {
   transition: 0.3s;
 }
 
-/* hero */
+/* voorwaarden section */
 
-.hero {
-  background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
-    url('../media/hoewerkthet(hero).png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 10rem;
-  color: white;
-  
-}
-
-.hero h1 {
-  font-size: 3.5rem;
-  width: 50rem;
-}
-
-.hero p {
-  color: #DADADA;
-  margin-top: 1.5rem;
-  font-weight: normal;
-  font-size: 1.2rem;
-  max-width: 50rem
-}
-
-.maakAfspraak {
-  display: inline-block;
-  align-self: flex-start;
-  padding: 14px 24px 13px 24px;
-  background-color: #F9C938;
-  border-radius: 24px;
-  border: none;
-  color: #1D1D1F;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-}
-
-.links {
-  display: flex;
-  flex-direction: row;
-  margin-top: 2rem;
-  gap: 3rem;
-}
-
-.links a {
-  display: flex;
-  align-items: center;
-  color: #DADADA;
-  text-decoration: none;
-  margin-right: 1rem;
-  gap: 1rem;
-}
-
-.links a i {
-  border-radius: 5rem;
-  border: 2px solid #DADADA;
-  padding: 0.5rem;
-}
-
-/* hoe werkt het */
-
-.hoewerkthet {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-  padding-left: 10rem;
-  background-color: black;
-  color: white;
-}
-
-.naamBedrijf {
-  font-size: 1.5rem;
-  color: #DADADA;
-  margin-bottom: 1rem;
-  font-weight: medium;
-}
-.hoewerkthet h1 {
-  font-weight: bold;
-  font-size: 3.5rem;
-  margin-bottom: 4rem;
-  width: 40rem;
-}
-
-.hoewerkthetElement {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.hoewerkthetContainer {
-  display: flex;
-  flex-direction: row;
-  gap: 4rem;
-}
-
-.hoewerkthetElement i {
-  font-size: 1.2rem;
-  color: #F9C938;
-}
-
-.hoewerkthetElement h2 {
-  font-weight: normal;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.hoewerkthetElement p {
-  font-weight: normal;
-  font-size: 1rem;
-  color: #a8a8a8;
-  width: 15rem;
-  line-height: 1.5;
-}
-
-/* Get started section */
-
-.getStarted {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-.getStartedContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.getStartedContainer h2 {
-  margin-bottom: 0;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.getStartedContainer h1 {
-  font-size: 2.5rem;
-  width: 35rem;
-  text-align: center;
-}
-
-.getStartedContainer p {
-  margin-top: 0.5rem;
-  font-size: 1rem;
-  width: 35rem;
-  text-align: center;
-  color: #5c5c5c;
-  font-weight: light;
-}
-
-.getStartedContainer a {
-  margin-top: 0.5rem;
-  padding: 14px 24px 13px 24px;
-  background-color: #F9C938;
-  border-radius: 24px;
-  border: none;
-  color: #1D1D1F;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-}
-
-.getStartedContainer a:hover {
-  background-color: #CAA32F;
-  transition: 0.3s;
+.voorwaarden {
+  max-width: 800px;
+  padding: 1rem;
+  margin: 100px auto;
 }
 
 /* footer section */
@@ -401,9 +226,11 @@ footer {
   font-weight: 400;
 }
 
+/* media queries */
+
 @media (max-width: 430px) {
 
-     /* navbar */
+  /* navbar */
 
   .navbar {
     width: 100%;
@@ -487,101 +314,6 @@ footer {
     background-color: #a8a8a8;
   }
 
-  /* hero */
-
-  .hero {
-    padding-left: 1.5rem;
-    height: auto;
-    min-height: 100vh;
-    padding-top: 25rem;
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-    width: 100%;
-    max-width: none;
-  }
-
-  .hero p {
-    font-size: 1rem;
-    max-width: 100%;
-  }
-
-  .links {
-    flex-direction: row;
-    gap: 1rem;
-  }
-
-  .maakAfspraak {
-    padding: 12px 20px;
-    font-size: 14px;
-  }
-
-  .links a {
-    font-size: 14px;
-  }
-
-  .hoewerkthet {
-    padding-left: 1.5rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-right: 1.5rem;
-  }
-
-  .hoewerkthet h1 {
-    font-size: 2rem;
-    width: 100%;
-    margin-bottom: 4rem;
-  }
-  
-  .hoewerkthet h2 {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .hoewerkthetContainer {
-    flex-direction: column;
-    gap: 3rem;
-  }
-
-  .hoewerkthetElement p {
-    width: 100%;
-  }
-
-  .hoewerkthetElement h2 {
-    margin-bottom: 0;
-  }
-
-  /* get started */
-
-  .getStarted {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .getStartedContainer h1,
-  .getStartedContainer p {
-    width: 100%;
-  }
-
-  .getStartedContainer h1 {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-  }
-
-  .getStartedContainer p {
-    font-size: 1rem;
-    line-height: 1.6rem;
-  }
-
-  .getStartedContainer a {
-    font-size: 1rem;
-    padding: 12px 20px;
-    text-align: center;
-  }
-  
   /* footer */
 
   .footerContainer {
@@ -619,10 +351,6 @@ footer {
   .logoFooter {
     font-size: 1rem;
   }
-  
+
+
 }
-
-
-
-
-

@@ -178,7 +178,8 @@ video {
 }
 
 .overons p {
-  font-size: 1.3rem;
+  line-height: 1.6;
+  font-size: 1.2rem;
   max-width: 35rem;
   margin: auto;
 }
@@ -357,7 +358,7 @@ footer {
 
 @media (max-width: 430px) {
 
-     /* navbar */
+  /* navbar */
 
   .navbar {
     width: 100%;
@@ -394,7 +395,7 @@ footer {
 
   /* Animatie naar kruis */
   .hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(5.5px, 5.5px);
   }
 
   .hamburger.active span:nth-child(2) {
@@ -402,7 +403,7 @@ footer {
   }
 
   .hamburger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
+    transform: rotate(-45deg) translate(5.5px, -5.5px);
   }
 
   .navLinks {
@@ -467,7 +468,6 @@ footer {
     width: 100%;
     height: auto;
     margin-top: 2rem;
-    border-radius: 8px;
   }
 
   /* Over ons sectie */
@@ -528,7 +528,7 @@ footer {
     padding: 12px 20px;
     text-align: center;
   }
-  
+
   /* footer */
 
   .footerContainer {
@@ -566,6 +566,6 @@ footer {
   .logoFooter {
     font-size: 1rem;
   }
-  
+
 
 }
