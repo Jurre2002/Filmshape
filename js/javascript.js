@@ -29,12 +29,3 @@
     hamburger.classList.toggle('active'); // voor kruisje
     navLinks.classList.toggle('active'); // voor menu tonen
   });
-
-  document.addEventListener("DOMContentLoaded", function () {
-    const buttons = document.querySelectorAll(".contactCTA");
-    buttons.forEach(function (button) {
-      button.addEventListener("click", function () {
-        window.location.href = "pagina's/contact.html";
-      });
-    });
-  });

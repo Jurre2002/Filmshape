@@ -138,6 +138,10 @@ label {
   color: #1D1D1F;
 }
 
+textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
 input,
 select,
 textarea {

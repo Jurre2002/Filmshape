@@ -119,6 +119,10 @@ li a:hover {
   min-height: 100vh;
 }
 
+.hero a {
+  text-decoration: none;
+}
+
 .heroTitle {
   color: white;
   text-align: center;
