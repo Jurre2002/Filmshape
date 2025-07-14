@@ -728,24 +728,24 @@ h4 {
 }
 
 .gridItem1 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url('../media/hoge-kwaliteit.jpg');
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url('../media/hoge-kwaliteit.jpg'); /*grid afbeelding, bestand in map "media" plaatsen, bij url alleen de tekst "hoge-kwaliteit.jpg" vervangen door bestandsnaam */
   background-size: cover;
 }
 
 .gridItem2 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url('../media/lage-kosten.jpg');
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url('../media/lage-kosten.jpg'); /*grid afbeelding, bestand in map "media" plaatsen, bij url alleen de tekst "lage-kosten.jpg" vervangen door bestandsnaam */
   background-size: cover;
 }
 
 .gridItem3 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url('../media/snelle-leveringen.jpg');
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url('../media/snelle-leveringen.jpg'); /*grid afbeelding, bestand in map "media" plaatsen, bij url alleen de tekst "snelle-levering.jpg" vervangen door bestandsnaam */
   background-size: cover;
   grid-row: 1 / 3;
   grid-column: 3;
 }
 
 .gridItem4 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url('../media/professionele-apparatuur.jpg');
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url('../media/professionele-apparatuur.jpg'); /*grid afbeelding, bestand in map "media" plaatsen, bij url alleen de tekst "professionele-apparatuur.jpg" vervangen door bestandsnaam */
   background-size: cover;
   grid-column: 1 / 3;
 }
@@ -1155,7 +1155,7 @@ footer {
 
 /* 📱💻 Tussenformaat: tablets en kleine laptops (431px – 1024px) */
 @media (min-width: 431px) and (max-width: 1024px) {
-.navbar {
+  .navbar {
     width: 100%;
     padding: 1rem;
     flex-direction: row;
@@ -1316,7 +1316,7 @@ footer {
     line-height: 1.6rem;
   }
 
-   /* --- REVIEWS SECTION --- */
+  /* --- REVIEWS SECTION --- */
   .reviews {
     padding: 100px 2rem 110px 2rem;
   }
@@ -1963,5 +1963,3 @@ footer {
   }
 
 }
-
-

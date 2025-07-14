@@ -229,7 +229,7 @@ footer {
 /* media queries */
 
 @media (min-width: 431px) and (max-width: 1024px) {
-.navbar {
+  .navbar {
     width: 100%;
     padding: 1rem;
     flex-direction: row;

@@ -26,11 +26,11 @@
   const navLinks = document.getElementById('navLinks');
 
   hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active'); // voor kruisje
-    navLinks.classList.toggle('active'); // voor menu tonen
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('active');
   });
 
-    const reviews = document.querySelectorAll(".review");
+  const reviews = document.querySelectorAll(".review");
   const dots = document.querySelectorAll(".dot");
   const prevButton = document.querySelector(".arrow1.left");
   const nextButton = document.querySelector(".arrow1.right");
@@ -38,14 +38,12 @@
   let currentIndex = 0;
 
   function showReview(index, direction = "right") {
-    // Reset alle reviews
     reviews.forEach((review, i) => {
       review.classList.remove("active", "slide-in-left", "slide-in-right");
       review.style.display = "none";
       dots[i].classList.remove("active-dot");
     });
 
-    // Voeg actieve class toe aan de juiste review en dot
     const activeReview = reviews[index];
     activeReview.classList.add("active");
     activeReview.style.display = "block";
@@ -71,7 +69,6 @@
     currentIndex = newIndex;
   }
 
-  // Event listeners
   nextButton.addEventListener("click", nextReview);
   prevButton.addEventListener("click", prevReview);
 
@@ -83,5 +80,4 @@
     });
   });
 
-  // Initial review tonen
   showReview(currentIndex);

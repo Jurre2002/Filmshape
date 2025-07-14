@@ -212,39 +212,39 @@ li a:hover {
 }
 
 .gridItem2 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(../media/tumbnail-2.jpg);
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)), url(../media/tumbnail-2.jpg); /*portfolio afbeelding, bestand in map "media" plaatsen, bij url alleen de tekst "tumbnail-2.jpg" vervangen door bestandsnaam */
   background-size: cover;
   grid-row: 1 / 3;
   grid-column: 2 / 4;
 }
 
 .gridItem3 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../media/tumbnail-1.jpg);
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../media/tumbnail-1.jpg); /*portfolio afbeelding, bestand in map "media" plaatsen, bij url alleen de tekst "tumbnail-3.jpg" vervangen door bestandsnaam */
   background-size: cover;
 }
 
 .gridItem4 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../media/tumbnail-3.jpg);
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../media/tumbnail-3.jpg); /*portfolio afbeelding, bestand in map "media" plaatsen, bij url alleen de tekst "tumbnail-4.jpg" vervangen door bestandsnaam */
   background-size: cover;
 }
 
 .gridItem5 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../media/tumbnail-4.jpg);
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../media/tumbnail-4.jpg); /*portfolio afbeelding, bestand in map "media" plaatsen, bij url alleen de tekst "tumbnail-5.jpg" vervangen door bestandsnaam */
   background-size: cover;
 }
 
 .gridItem6 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../media/tumbnail-5.jpg);
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../media/tumbnail-5.jpg); /*portfolio afbeelding, bestand in map "media" plaatsen, bij url alleen de tekst "tumbnail-6.jpg" vervangen door bestandsnaam */
   background-size: cover;
 }
 
 .gridItem7 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../media/tumbnail-6.jpg);
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../media/tumbnail-6.jpg); /*portfolio afbeelding, bestand in map "media" plaatsen, bij url alleen de tekst "tumbnail-7.jpg" vervangen door bestandsnaam */
   background-size: cover;
 }
 
 .gridItem8 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../media/tumbnail-7.jpg);
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../media/tumbnail-7.jpg); /*portfolio afbeelding, bestand in map "media" plaatsen, bij url alleen de tekst "tumbnail-8.jpg" vervangen door bestandsnaam */
   background-size: cover;
 }
 
@@ -425,7 +425,7 @@ footer {
 /* media queries */
 
 @media (min-width: 431px) and (max-width: 1024px) {
-.navbar {
+  .navbar {
     width: 100%;
     padding: 1rem;
     flex-direction: row;
@@ -518,7 +518,7 @@ footer {
     min-width: auto;
     min-height: 180px;
     padding: 24px;
-    
+
     background-color: #222;
   }
 
@@ -809,7 +809,7 @@ footer {
     padding: 12px 20px;
     text-align: center;
   }
-  
+
   /* footer */
 
   .footerContainer {
@@ -847,7 +847,7 @@ footer {
   .logoFooter {
     font-size: 1rem;
   }
-  
+
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
@@ -874,7 +874,7 @@ footer {
     min-width: auto;
     min-height: 220px;
     padding: 28px;
-    
+
   }
 
   .gridItem h3 {

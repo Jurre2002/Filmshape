@@ -119,7 +119,7 @@ li a:hover {
   padding: 1rem;
 }
 
-.formContainer > div {
+.formContainer>div {
   margin-bottom: 25px;
   font-size: 1.3rem;
   color: #1D1D1F;
@@ -288,7 +288,7 @@ footer {
 /* media queries */
 
 @media (min-width: 431px) and (max-width: 1024px) {
-.navbar {
+  .navbar {
     width: 100%;
     padding: 1rem;
     flex-direction: row;

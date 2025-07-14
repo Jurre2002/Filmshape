@@ -357,7 +357,7 @@ footer {
 /* media queries */
 
 @media (min-width: 431px) and (max-width: 1024px) {
-.navbar {
+  .navbar {
     width: 100%;
     padding: 1rem;
     flex-direction: row;
@@ -766,6 +766,7 @@ footer {
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
+
   /* Intro sectie */
   .intro {
     flex-direction: row;
